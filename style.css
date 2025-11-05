@@ -10,6 +10,11 @@
     color: white;
     padding: 5px 15px;
     display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+}
+.btn:hover {
+    background-color: #555;
 }
 
 .flex {
@@ -27,6 +32,7 @@
     justify-content: center;
 
 }
+
 
 .space-around {
     justify-content: space-around;
@@ -57,7 +63,13 @@
 .w-48 {
     width: 48%;
 }
+.w-33{
+    width: 30%;
+}
 
+.w-25{
+    width: 23%;
+}
 .section-hero {
     background-image: url(./asset-interno/Banner.jpg);
     background-repeat: no-repeat;
