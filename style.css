@@ -1,0 +1,78 @@
+* {
+    block-size: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 15px;
+    display: inline-block;
+}
+
+.flex {
+    display: flex;
+    flex: wrap;
+}
+
+.space-between {
+    justify-content: space-between;
+
+
+}
+
+.justify-center {
+    justify-content: center;
+
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.container-1000 {
+    max-width: 1000px;
+
+    margin-left: auto;
+    margin: auto;
+    width: 100%;
+
+}
+
+.margin-top-100 {
+    margin-top: 100px;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* CLASSES DE DIMENTION */
+.w-100 {
+    width: 100%;
+}
+
+.w-48 {
+    width: 48%;
+}
+
+.section-hero {
+    background-image: url(./asset-interno/Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+header {
+    padding: 20px 64px;
+    box-shadow: 0px 5px 10px  rgba(0, 0, 0, 0.215)
+}
+.logo {
+    width: 100px;
+}
+header ul {
+    list-style: none;
+}
